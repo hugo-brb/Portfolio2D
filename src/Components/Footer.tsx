@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { FaDownload } from "react-icons/fa6";
 
 export default function Footer() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <footer className=" w-[95vw] md:w-1/2 min-h-16 h-fit my-4 mx-auto py-2 px-7 rounded-4xl bg-[var(--background-light)] flex flex-col gap-2 justify-center items-center">
@@ -29,7 +29,10 @@ export default function Footer() {
                     <p className=" group-hover:text-[var(--violet)] transition-all duration-300 text-sm">
                         {t("PDF")}
                     </p>
-                    <a href="/docs/CV.pdf" target="_blank" download>
+                    <a
+                        href={`/docs/CV-Hugo_BARBIERI-${i18n.language}.pdf`}
+                        target="_blank"
+                        download>
                         <FaDownload className="text-[var(--text)] text-2xl cursor-pointer group-hover:text-[var(--violet)] transition-all duration-300" />
                     </a>
                 </div>
