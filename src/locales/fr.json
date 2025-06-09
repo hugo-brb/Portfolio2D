@@ -1,0 +1,48 @@
+{
+    "About": "A-Propos",
+    "Projects": "Projets",
+    "Contact": "Contact",
+
+    "Hello": "HELLO,",
+    "IM": "JE SUIS",
+    "A": "UN",
+    "Developer": "DEVELOPPEUR",
+    "Based": "BASÉ EN",
+
+    "AboutTitle": "A-PROPOS DE MOI",
+    "AboutText": "Développeur web curieux et touche-à-tout, je transforme des idées en expériences interactives avec React et Three.js. Étudiant à l’IUT2 de Grenoble, j'aime façonner des interfaces dynamiques où technique rime avec esthétique. J’aime explorer, apprendre et repousser les limites du web !",
+
+    "EducationTitle": "FORMATION",
+    "CertifTitle": "CERTIFICATIONS",
+
+    "ProjectsTitle": "PROJETS",
+    "ProjectsText": "Je vous invite à explorer mes projets dans l'ordre chronologique, mettant en lumière mon parcours et l'évolution de mes compétences, du développement d'applications innovantes à la création de sites web.",
+
+    "ContactTitle": "CONTACTEZ-MOI",
+    "ContactForm": "Formulaire de Contact",
+    "ContactText": "N'hésitez pas à me contacter pour toute question ou collaboration.",
+    "ContactName": "Nom",
+    "YourName": "Votre Nom",
+    "CompanyName": "Entreprise",
+    "YourCompany": "Votre Entreprise",
+    "ContactEmail": "Email",
+    "YourEmail": "Votre Email",
+    "ContactMessage": "Message",
+    "YourMessage": "Votre Message",
+    "ContactButton": "Envoyer",
+    "Optional": "[optionnel]",
+
+    "NameError": "Le nom est requis",
+    "MailError": "L'email est requis",
+    "MailErrorFormat": "Format d'email invalide",
+    "MessageError": "Le message est requis",
+
+    "PDF": "Télécharger mon CV",
+
+    "SeeMore": "Voir plus",
+
+    "Pro": "Projet Professionnel",
+    "Perso": "Projet Personnel",
+    "Etu": "Projet Étudiant",
+    "Other": "Autre"
+}

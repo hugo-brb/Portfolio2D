@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "type": "DPL",
+        "title": "BUT - Informatique",
+        "duree": "2023 - (en cours)",
+        "specialite": [
+            "Réalisation d’applications - Conception, Développement, Validation"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "DPL",
+        "title": "DUT - Informatique",
+        "duree": "2023 - 2025",
+        "specialite": [
+            "Réalisation d’applications - Conception, Développement, Validation"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "DPL",
+        "title": "BAC - Général",
+        "duree": "2020 - 2023",
+        "specialite": ["Mathématiques", "Informatique", "Physique"]
+    },
+    {
+        "id": 4,
+        "type": "CERTIF",
+        "title": "Three.js Journey Completion",
+        "duree": "2025",
+        "specialite": ["Three.js", "React", "3D Graphics"],
+        "url": "https://threejs-journey.com/certificate/view/46082"
+    }
+]

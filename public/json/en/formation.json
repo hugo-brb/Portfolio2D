@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "type": "DPL",
+        "title": "BUT - Computer Science",
+        "duree": "2023 - (ongoing)",
+        "specialite": [
+            "Application Development – Design, Implementation, Testing"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "DPL",
+        "title": "DUT - Computer Science",
+        "duree": "2023 - 2025",
+        "specialite": [
+            "Application Development – Design, Implementation, Testing"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "DPL",
+        "title": "High School Diploma – General Track",
+        "duree": "2020 - 2023",
+        "specialite": ["Mathematics", "Computer Science", "Physics"]
+    },
+    {
+        "id": 4,
+        "type": "CERTIF",
+        "title": "Three.js Journey Completion",
+        "duree": "2025",
+        "specialite": ["Three.js", "React", "3D Graphics"],
+        "url": "https://threejs-journey.com/certificate/view/46082"
+    }
+]

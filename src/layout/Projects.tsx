@@ -1,0 +1,58 @@
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+import { useAppContext } from "../context";
+import Item from "../Components/Item";
+import { useTranslation } from "react-i18next";
+
+export default function Projets() {
+    const { t } = useTranslation();
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: false, amount: 0.3 });
+    const { experiences } = useAppContext().state;
+
+    return (
+        <section
+            id="projects"
+            className="min-h-screen w-screen p-7 flex flex-col bg-[var(--background)]">
+            <motion.h1
+                ref={ref}
+                initial={{ opacity: 0, y: 30 }}
+                animate={
+                    isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }
+                }
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                className="text-5xl lg:text-8xl font-bold text-[var(--text)] leading-tight mb-4">
+                {t("ProjectsTitle")}
+            </motion.h1>
+
+            <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                className="border-t-2 border-[var(--gris)] w-1/4 h-1 mx-auto my-4"
+            />
+            <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                className="text-lg lg:text-xl text-[var(--text)] lg:max-w-[70vw] mx-auto">
+                {t("ProjectsText")}
+            </motion.p>
+            <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.3 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+                className="border-t-2 border-[var(--gris)] w-1/4 h-1 mx-auto my-4"
+            />
+
+            <div className=" flex flex-col gap-12 mt-7 md:mx-auto max-w-[80vw] lg:max-w-[60vw]">
+                {experiences.map((experience, index) => (
+                    <Item key={index} {...experience} />
+                ))}
+            </div>
+        </section>
+    );
+}

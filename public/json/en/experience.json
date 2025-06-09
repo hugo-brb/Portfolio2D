@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Kapsule K360",
+        "nature": "Pro",
+        "company": "Mobiteach",
+        "duree": "June 2025 -",
+        "tags": [
+            "React",
+            "Three.js",
+            "R3F",
+            "Scss",
+            "Tailwind CSS",
+            "Motion",
+            "Gsap",
+            "TypeScript"
+        ],
+        "description": "This Kapsule offers a 360° immersive experience in an interactive world, developed with React and Three.js. Thanks to R3F, 3D elements are integrated into a panoramic image, enriched with points of interest allowing access to additional content (information, quizzes, etc.). The goal is to provide a smooth, educational, and engaging immersive experience.",
+        "url": "https://k-hubs.com"
+    },
+    {
+        "id": 2,
+        "title": "Kapsule K-Hoot",
+        "nature": "Pro",
+        "company": "Mobiteach",
+        "duree": "April - May 2025",
+        "tags": ["React", "Tailwind CSS", "Motion", "TypeScript"],
+        "description": "Creation of a Kapsule K-Hoot for the K-Hubs platform, inspired by Kahoot!. The application offers three dynamic quiz modes aimed at making learning more fun and interactive.",
+        "url": "https://k-hubs.com"
+    },
+    {
+        "id": 3,
+        "title": "Refactoring",
+        "nature": "Edu",
+        "company": "IUT2 Grenoble",
+        "duree": "February - March 2025",
+        "tags": ["Java", "Android", "Docker", "Symphony", "PHP", "PostgreSQL"],
+        "description": "In a team of 5, we took over a mobile application and its Symfony back office, dedicated to internship management. Objectives: technical overhaul, bug fixing, and adding new features to improve user experience and overall performance.",
+        "url": "https://github.com/hugo-brb/CarnetStage"
+    },
+    {
+        "id": 4,
+        "title": "PhareAway",
+        "nature": "Edu",
+        "company": "IUT2 Grenoble",
+        "duree": "November 2024 - January 2025",
+        "tags": ["TypeScript", "React", "NextJs", "PostgreSQL", "Tailwind CSS"],
+        "description": "Web project aimed at promoting the heritage of French lighthouses through an interactive map and unique escape games. Each lighthouse has its own scripted mini-game, allowing users to discover its history and features in a fun way. Completed in a team of 8.",
+        "url": "https://phareaway.fun/"
+    },
+    {
+        "id": 5,
+        "title": "A relative's portfolio",
+        "nature": "Personal",
+        "duree": "October 2024",
+        "tags": ["TypeScript", "React", "NextJs", "Tailwind CSS", "i18n"],
+        "description": "Creation of a modern and high-performance portfolio in Next.js. I designed an intuitive interface, optimized SEO via SSR, integrated interactive animations, and reusable components. This project allowed me to refine my front-end skills while meeting my client's needs precisely.",
+        "url": "https://portfolio-celia.fr/"
+    },
+    {
+        "id": 6,
+        "title": "Chief Arena",
+        "nature": "Edu",
+        "company": "IUT2 Grenoble",
+        "duree": "May 2024 - July 2024",
+        "tags": ["JavaFx", "UML"],
+        "description": "Project manager of a team of 6 for the development of a JavaFX application dedicated to organizing cooking competitions. The app includes planning tools, participant management, and event tracking. I coordinated the team, supervised development, and ensured technical and functional consistency of the project.",
+        "url": "https://github.com/hugo-brb/Projets_etu"
+    },
+    {
+        "id": 7,
+        "title": "Other Small Student Projects",
+        "nature": "Edu",
+        "company": "IUT2 Grenoble",
+        "duree": "September 2024 -",
+        "tags": ["Java", "UML", "Docker", "Bash", "C/C++", "PostgreSQL"],
+        "description": "Participation in several academic projects, including the design of Java applications, UML modeling, use of Docker, and work in C/C++, Bash, and PostgreSQL. These experiences helped me strengthen my technical skills and work on diverse challenges in a team setting. All projects are available on my GitHub.",
+        "url": "https://github.com/hugo-brb/Projets_etu"
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "About": "About",
+    "Projects": "Projects",
+    "Contact": "Contact",
+
+    "Hello": "Hello,",
+    "IM": "I'M",
+    "A": "A",
+    "Developer": "DEVELOPER",
+    "Based": "BASED IN",
+
+    "AboutTitle": "ABOUT ME",
+    "AboutText": "An inquisitive, jack-of-all-trades web developer, I transform ideas into interactive experiences using React and Three.js. As a student at the IUT2 in Grenoble, I like to create dynamic interfaces where technique and aesthetics go hand in hand. I love exploring, learning and pushing the limits of the web! ",
+
+    "EducationTitle": "EDUCATION",
+    "CertifTitle": "CERTIFICATIONS",
+
+    "ProjectsTitle": "PROJECTS",
+    "ProjectsText": "I invite you to explore my projects in chronological order, highlighting my journey and the evolution of my skills, from developing innovative applications to creating websites.",
+
+    "ContactTitle": "CONTACT ME",
+    "ContactForm": "Contact Form",
+    "ContactText": "Feel free to contact me for any questions or collaborations.",
+    "ContactName": "Name",
+    "YourName": "Your Name",
+    "CompanyName": "Company",
+    "YourCompany": "Your Company",
+    "ContactEmail": "Mail",
+    "YourEmail": "Your mail",
+    "ContactMessage": "Message",
+    "YourMessage": "Your Message",
+    "ContactButton": "Send",
+    "Optional": "[optional]",
+
+    "NameError": "Name is required",
+    "MailError": "Mail is required",
+    "MailErrorFormat": "Invalid mail format",
+    "MessageError": "Message is required",
+
+    "PDF": "Download my CV",
+
+    "SeeMore": "See more",
+
+    "Pro": "Profesional Project",
+    "Perso": "Personal Project",
+    "Etu": "Student Project",
+    "Other": "Other"
+}
